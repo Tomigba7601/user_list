@@ -84,8 +84,8 @@ class Store {
             if(user.id === id){
                 users.splice(index, 1);
             }
-        });
 
+        });
         localStorage.setItem('users', JSON.stringify(users));
     }
 }
